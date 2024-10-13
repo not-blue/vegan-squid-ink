@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ink_sac",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "GLS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "G": [
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:glow_berries"
+      }
+    ]
+  },
+  "result": {
+    "id": "minecraft:ink_sac",
+    "count": 6
+  }
+}
