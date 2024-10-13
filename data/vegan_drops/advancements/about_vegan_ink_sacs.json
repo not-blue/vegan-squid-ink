@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:string"
+      "item": "minecraft:glow_ink_sac"
     },
-    "title": "Vegan Squid Ink",
+    "title": "Vegan Ink Sacs",
     "description": "Recipes for ink sacs, glow ink sacs, black dye and their components",
     "show_toast": false,
     "announce_to_chat": false

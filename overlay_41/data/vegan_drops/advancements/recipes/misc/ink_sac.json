@@ -4,40 +4,37 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_squid_ink:black_dye"
+        "recipe": "vegan_ink_sacs:vegan_ink_sac"
       }
     },
-    "has_coal": {
+    "has_black_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:coal"
+            "items": "minecraft:black_dye"
           }
         ]
       }
     },
-    "has_charcoal": {
-      "trigger": "minecraft:inventory_changed",
+    "has_the_recipe_mirror": {
+      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "items": [
-          {
-            "items": "minecraft:charcoal"
-          }
-        ]
+        "recipe": "vegan_ink_sacs:vegan_ink_sac_2"
       }
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_coal",
-      "has_charcoal"
+      "has_black_dye",
+      "has_the_recipe_mirror"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_squid_ink:black_dye"
+      "vegan_ink_sacs:vegan_ink_sac",
+      "vegan_ink_sacs:vegan_ink_sac_2"
     ]
   },
   "sends_telemetry_event": false

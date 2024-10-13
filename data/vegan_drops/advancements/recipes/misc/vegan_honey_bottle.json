@@ -4,41 +4,52 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_squid_ink:vegan_glow_ink_sac"
+        "recipe": "vegan_ink_sacs:vegan_honey_bottle"
       }
     },
-    "has_mirrored_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "vegan_squid_ink:vegan_glow_ink_sac_mirrored"
-      }
-    },
-    "has_glowstone": {
+    "has_sugar": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glowstone"
+            "items": [
+              "minecraft:sugar"
+            ]
           }
         ]
       }
     },
-    "has_glowstone_dust": {
+    "has_glass_bottle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glowstone_dust"
+            "items": [
+              "minecraft:glass_bottle"
+            ]
           }
         ]
       }
     },
-    "has_glow_berries": {
+    "has_water_bottle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:glow_berries"
+            "items": [
+              "minecraft:potion"
+            ],
+            "potion": "minecraft:water"
+          }
+        ]
+      }
+    },
+    "has_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:small_flowers"
           }
         ]
       }
@@ -47,16 +58,15 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mirrored_recipe",
-      "has_glowstone",
-      "has_glowstone_dust",
-      "has_glow_berries"
+      "has_sugar",
+      "has_glass_bottle",
+      "has_water_bottle",
+      "has_flower"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_squid_ink:vegan_glow_ink_sac",
-      "vegan_squid_ink:vegan_glow_ink_sac_mirrored"
+      "vegan_ink_sacs:vegan_honey_bottle"
     ]
   },
   "sends_telemetry_event": false
