@@ -1,17 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "vegan_string",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
+  "group": "string",
+ "ingredients": [
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:wheat"
   ],
   "result": {
     "id": "minecraft:string",
