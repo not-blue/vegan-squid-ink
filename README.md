@@ -8,7 +8,7 @@ Craft ink sacs and glow ink sacs without killing squid--or any other mobs, for t
 - Honeycomb from honey and bone meal (from a composter)
 - Rabbit hide from paper, string and honeycomb (use to make leather)
 - Ink sacs from black dye, leather and string
-- Glow ink sacs from black dye, leather, string
+- Glow ink sacs from glowstone dust or glow berries, leather and string
 
 
 
