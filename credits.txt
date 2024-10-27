@@ -1,4 +1,4 @@
 Pack name:  Vegan Ink Sacs
-Pack URL:   
+Pack URL:   https://modrinth.com/datapack/vegan-ink-sacs
 Author:     Nicole / notblue / nicoleisnotblue
 Author URL: https://modrinth.com/user/notblue   
