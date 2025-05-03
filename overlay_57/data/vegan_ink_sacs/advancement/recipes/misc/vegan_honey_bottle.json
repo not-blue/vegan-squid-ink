@@ -42,7 +42,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:small_flowers"
+            "items": "#vegan_ink_sacs:small_flowers"
           }
         ]
       }

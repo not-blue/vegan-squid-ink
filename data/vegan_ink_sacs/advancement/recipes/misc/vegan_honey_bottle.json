@@ -12,9 +12,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:sugar"
-            ]
+            "items": "minecraft:sugar"
           }
         ]
       }
@@ -24,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:glass_bottle"
-            ]
+            "items": "minecraft:glass_bottle"
           }
         ]
       }
@@ -36,10 +32,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:potion"
-            ],
-            "potion": "minecraft:water"
+            "items": "minecraft:potion"
           }
         ]
       }
@@ -49,7 +42,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:small_flowers"
+            "items": "#vegan_ink_sacs:small_flowers"
           }
         ]
       }
