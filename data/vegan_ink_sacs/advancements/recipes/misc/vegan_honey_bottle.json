@@ -49,7 +49,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:small_flowers"
+            "tag": "#vegan_ink_sacs:small_flowers"
           }
         ]
       }

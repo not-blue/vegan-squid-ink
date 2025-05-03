@@ -3,26 +3,15 @@
     "pack_format":15,
     "supported_formats": {
       "min_inclusive": 15,
-      "max_inclusive": 999
+      "max_inclusive": 41
     },
-    "description": "Craft ink sacs with vegan ingredients"
+    "description": "Craft ink sacs with vegan ingredients. For 1.20-1.20.6."
   },
   "overlays": {
     "entries": [
       {
         "formats": 41,
         "directory": "overlay_41"
-      },
-      {
-        "formats": 48,
-        "directory": "overlay_48"
-      },
-      {
-        "formats": {
-          "min_inclusive": 57,
-          "max_inclusive": 999
-        },
-        "directory": "overlay_57"
       }
     ]
 }
